@@ -175,14 +175,12 @@ a {
     .nav2core {
     	
     	width: calc(100%-100px);
-    	line-height: 18px;
+    	
 
 		}
 
     .btn-tryit {
     	margin-left: 0;
-    	display: block;
-    	float: none;
     	
     }
     .hidden {
