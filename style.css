@@ -1,0 +1,204 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin-top: 0px;
+	max-width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 300;
+	color: #062942;
+	background-color: #fafafb;
+	font-size: small;
+	line-height: 1;
+	letter-spacing: 0;
+	height: 100%;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+.head {
+	width: 100%;
+	height: auto;
+}
+
+.logoHead {
+	width: 120px;
+	float: left;
+	margin-top: 18px; 
+}
+
+.container1 {
+	padding: 0px 40px;
+	background-color: #ffffff;
+	overflow: hidden;
+
+}
+.nav1 {
+	float: right;
+	margin-top: 5px;
+}
+
+.nav1 a {
+	margin-left: 12px;
+	font-size: 12px;
+	color: #9096a2;
+	line-height: 26px;
+	font-weight: 600;
+	
+}
+/*snaps after 947 width*/
+.nav2 {
+	display: inline-block;
+	float: left;
+	width: calc(100% - 120px);
+	margin-top: 12px;
+
+}
+
+.nav2core {
+	float: right;
+	display: inline-block;
+}
+.dropdown {
+	
+	float: left;
+	display: inline-block;
+	position: relative;
+	margin-left: 30px;
+	padding-top: 7px;
+	padding-bottom: 28px;
+
+}
+.dropdown a {
+	color:  #062942;
+	float: left;
+	display: inline-block;
+	font-size: 18px;
+	padding-right: 17px;
+	line-height: 26px;
+	background-image: url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/dropdown_blue.svg');
+	background-repeat: no-repeat;
+	background-position: right 10px;
+
+}
+
+.btn-login {
+	margin-left: 70px;
+	float: left;
+	padding-top: 7px;
+	padding-bottom: 28px;
+	font-size: 18px;
+	line-height: 26px;
+}
+
+.login {
+	color:  #062942;
+}
+
+.login, .btn-tryit {
+	margin-left: 30px;
+	
+}
+
+.btn-tryit {
+	    background-color: #85C525;
+		color: #FFFFD6;
+		border-radius: 5px;
+		padding-right: 10px;
+		padding-left: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		
+}
+
+.btn-tryit:hover {
+	color: #FFFFD6;
+		background-color: #aad662;
+}
+.hidden {
+	display: none;
+}
+
+@media  screen and (max-width:947px ) and (min-width:767px)  {
+	.dropdown {
+		margin-left: 10px;
+	}
+	.btn-login {
+	margin-left: 10px;
+}
+   .login, .btn-tryit {
+	margin-left: 10px;
+
+}
+}
+
+@media  screen and (max-width: 766px) and (min-width:480px ) {
+    .nav1, .dropdown, .login {
+    	display: none;
+    }
+
+    .btn-tryit {
+    	margin-left: 0;
+    }
+    .hidden {
+        margin-top: -4px;
+    	display: inline-block ;
+    	margin-left: 30px;
+    }
+
+    .logoHead {
+	width: 100px;
+	float: left;
+	margin-top: 8px; 
+}
+
+}
+
+@media  screen and (max-width: 479px) and (min-width:300px ) {
+	
+    .container1 {
+	padding: 0px 15px;}
+
+	.nav1, .dropdown, .login {
+    	display: none;
+    }
+
+    .btn-login {
+    	margin-left: 0px;
+    }
+    .nav2core {
+    	
+    	width: calc(100%-100px);
+    	line-height: 18px;
+
+		}
+
+    .btn-tryit {
+    	margin-left: 0;
+    	display: block;
+    	float: none;
+    	
+    }
+    .hidden {
+    	display: inline-block ;
+    	margin-left: 10px;
+    	margin-top: 15px;
+    	
+    }
+    .hidden img {
+    	width: 30px;
+    }
+
+    .logoHead {
+	width: 100px;
+	float: left;
+	margin-top: 8px; 
+}
+
+}

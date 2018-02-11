@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Freshbooks</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="js/jquery.js"></script>
+	<script>
+    window.onresize = displayWindowSize;
+    window.onload = displayWindowSize;
+
+    function displayWindowSize() {
+        myWidth = window.innerWidth;
+        myHeight = window.innerHeight;
+        // your size calculation code here
+        document.getElementById("dimensions").innerHTML = myWidth + "x" + myHeight;
+    };
+</script>
+</head>
+<body>
+	<div id="dimensions"></div>
+	<header>
+		<div class="head">
+			<div class="container1">
+				<a class="logoHead" href="#"><img src="images/default-logo.svg"></a>
+				
+			<div class="nav1">
+					<a href="">CONTACT US</a>
+					<a href="">ABOUT</a>
+					<a href="">1.866.303.6061</a>	
+			</div>
+			<div class="nav2">
+				<div class="nav2core">
+					<div class="dropdown"><a href="">How it Works</a></div>
+					<div class="dropdown"><a href="">Who it's For</a></div>
+					<div class="dropdown"><a href="">More</a></div>
+					<div class="dropdown"><a href="">Blog</a></div>
+				
+			<div class="btn-login">
+				
+					<a class="btn-tryit" href="">Try it Free</a>
+					<a class="login" href="">Login</a>
+				</div>
+				<div class="hidden"><img src="https://png.icons8.com/color/50/000000/share.png"></div>
+			</div>
+			</div>
+			</div>
+		</div>
+	</header>
+
+</body>
+</html>
