@@ -129,7 +129,7 @@ a {
 		background-image: url("images/home-computer-hero.jpg") ;
 		background-color: #FFFFFF;
 		margin-top:;
-		width: 1280px;
+		width: 100%;
 		background-position: top center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -139,6 +139,8 @@ a {
 
 	.hero-container {
      padding: 45px 0px ;
+     width: 100%;
+     display: block;
 }
 
 .content {
@@ -182,6 +184,24 @@ a {
 	color: #062942;
 }
 
+.input-pass {
+	display: none;
+	position: relative;
+	max-width: 371px;
+	margin-bottom: 7px;
+}
+
+#hero-pass {
+	width: 100%;
+	border: 2px solid #c5c7ce;
+	border-radius: 5px;
+	font-size: 1.3em;
+	height: 50px;
+	line-height: 1;
+	padding:0px 15px;
+	color: #062942;
+}
+
 .cta-subtext-btn {
 	text-align: center;
 	display: block;
@@ -213,6 +233,11 @@ a {
 
 }
 
+.cta-btn:hover {
+	border: none;
+	background-color: #aad662;
+}
+
 .btn-img img {
 	max-width: 100%;
 	width: 116px;
@@ -229,6 +254,10 @@ a {
 small a {
 	color: #8495a2;
 	text-decoration: underline;
+}
+
+small a:hover {
+	text-decoration: none;
 }
 
 small {
@@ -256,6 +285,19 @@ small {
 	margin-left: 10px;
 
 }
+.hero {
+	background-position: 60%;
+}
+.content {
+	margin-left: 0px;
+}
+.btn-img img {
+	display: none;
+}
+.cta-subtext-input {
+	margin-left: 0px;
+}
+
 }
 
 @media  screen and (max-width: 784px) and (min-width:480px ) {
@@ -267,15 +309,68 @@ small {
     	margin-left: 0;
     }
     .hidden {
-        margin-top: -4px;
+        margin-top: 10px;
     	display: inline-block ;
     	margin-left: 30px;
+    	
+    }
+
+    .hidden img {
+    	width: 30px;
     }
 
     .logoHead {
 	width: 100px;
 	float: left;
 	margin-top: 8px; 
+}
+.btn-img img {
+	display: none;
+}
+
+.hero {
+	background-image: none;
+	background-color: #E5F4FE;
+
+}
+.content {
+	text-align: center;
+	width: 100%;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.cta-subtext-input {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.input-pass {
+	display: block;
+    max-width: 450px;
+margin-right: auto;
+margin-left: auto;
+
+	
+}
+.input-email {
+	display: block;
+	max-width: 450px;
+margin-right: auto;
+margin-left: auto;
+}
+
+#hero-email {
+    font-size: 1.5em;
+}
+#hero-pass {
+font-size: 1.5em;
+}
+.cta-subtext-btn {
+	max-width: 450px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 }
@@ -308,17 +403,66 @@ small {
     .hidden {
     	display: inline-block ;
     	margin-left: 10px;
-    	margin-top: 9px;
+    	margin-top: 18px;
+
     	
     }
     .hidden img {
-    	width: 30px;
+    	width: 20px;
     }
 
     .logoHead {
 	width: 100px;
 	float: left;
 	margin-top: 8px; 
+}
+.btn-img img {
+	display: none;
+}
+
+.hero {
+	background-image: none;
+	background-color: #E5F4FE;
+
+}
+.content {
+	text-align: center;
+	width: 100%;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.cta-subtext-input {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.input-pass {
+	display: block;
+    max-width: 450px;
+margin-right: auto;
+margin-left: auto;
+
+	
+}
+.input-email {
+	display: block;
+	max-width: 450px;
+margin-right: auto;
+margin-left: auto;
+}
+
+#hero-email {
+    font-size: 1.2em;
+}
+#hero-pass {
+font-size: 1.2em;
+}
+.cta-subtext-btn {
+	max-width: 450px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 }
