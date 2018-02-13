@@ -297,55 +297,92 @@ small {
 	vertical-align: middle;
 }*/
 
-.logo-cnet{ width: 26px;
+.logo-cnet{ 
+	        width: 26px;
             height:26px ;
             margin-top: -2px;
-           
-       }
-.logo-forbes{ width:56px ;
+ }
+.logo-forbes{
+              width:56px ;
               height:22px ;
               margin-top: -1px;
-              
-       }
-.logo-cnn{  width: 35px;
+ }
+.logo-cnn{  
+	        width: 35px;
             height:18px ;
             margin-top: 2px;
-           
-           
-       }
-.logo-nyt{  width:154px ;
+           }
+.logo-nyt{  
+	        width:154px ;
             height:21px ;
             margin-top: 2px;
-
-           
-            
-       }
-.logo-techcrunch {  width:115px ;
+ }
+.logo-techcrunch { 
+              width:115px ;
                    height:16px ;
-                   margin-top: 2px;
-
-
-                   
-                  
-       }
-.logo-mashable{  width:81px ; 
+                   margin-top: 2px;           
+            }
+.logo-mashable{  
+	             width:81px ; 
                 height:14px ;
                 margin-top: 4px;
-                
-               
-       }
-.logo-bloomberg { width:102px ; 
+ }
+.logo-bloomberg { 
+	             width:102px ; 
                  height:18px ;
                  margin-top: 3px;
-                
-                 
-       }
-.logo-fastc{    width:94px ;
+ }
+.logo-fastc{    
+	             width:94px ;
                height: 18px;
                margin-top: 1px;
-               
-       }
+ }
 
+.container3 {
+	padding: 0px 40px;
+	background-color: #ffffff;
+	width: 100%;
+	overflow: hidden;
+}
+
+.three-col {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	float: left;
+}
+
+.col {
+	float: left;
+	width: 30%;
+	margin-right: 5%;
+	text-align: center;
+}
+.three-col .col:last-child {
+	margin-right: 0px;
+}
+
+.col h3 {
+	font-size: 1.5rem;
+	font-weight: 300;
+	color: #0D83E0;
+	margin-bottom: 20px;
+}
+
+.col p {
+    
+	font-size: 1rem;
+	line-height: 1.6;
+	padding-left:5% ;
+	padding-right: 5%;
+	color: #062942;
+	font-weight: 200;
+}
+
+.col img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
 
 
 
@@ -462,6 +499,16 @@ font-size: 1.5em;
 	display: none;
 }
 
+.col {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.col p {
+	max-width: 376px;
+	margin: 0px auto 20px auto;
+}
+
 }
 
 @media  screen and (max-width: 479px) and (min-width:300px ) {
@@ -558,5 +605,16 @@ font-size: 1.2em;
 .logo-fastc  {display: none;}
 .logo-nyt {display: none;}
 .logo-cnn {display: none;}
+
+.col {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.col p {
+	max-width: 376px;
+	margin: 0px auto 15px auto;
+}
+
 }
 
