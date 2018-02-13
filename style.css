@@ -128,7 +128,6 @@ a {
 .hero {
 		background-image: url("images/home-computer-hero.jpg") ;
 		background-color: #FFFFFF;
-		margin-top:;
 		width: 100%;
 		background-position: top center;
 		background-repeat: no-repeat;
@@ -273,6 +272,84 @@ small {
 	margin-right: 5px;
 
 }
+.featured-in-container {
+	padding: 0px 40px;
+	background-color:#f7f8f9; 
+}
+
+.featured-in-container section {
+	display: flex;
+	align-content: flex-start;
+	justify-content: space-between;
+	height: 60px;
+	width: 100%;
+	padding: 20px 0px;
+}
+
+.feature {
+	font-size: 1.3em;
+	vertical-align: middle;
+}
+
+/*.featured-in-container img {
+
+	display: inline-block;
+	vertical-align: middle;
+}*/
+
+.logo-cnet{ width: 26px;
+            height:26px ;
+            margin-top: -2px;
+           
+       }
+.logo-forbes{ width:56px ;
+              height:22px ;
+              margin-top: -1px;
+              
+       }
+.logo-cnn{  width: 35px;
+            height:18px ;
+            margin-top: 2px;
+           
+           
+       }
+.logo-nyt{  width:154px ;
+            height:21px ;
+            margin-top: 2px;
+
+           
+            
+       }
+.logo-techcrunch {  width:115px ;
+                   height:16px ;
+                   margin-top: 2px;
+
+
+                   
+                  
+       }
+.logo-mashable{  width:81px ; 
+                height:14px ;
+                margin-top: 4px;
+                
+               
+       }
+.logo-bloomberg { width:102px ; 
+                 height:18px ;
+                 margin-top: 3px;
+                
+                 
+       }
+.logo-fastc{    width:94px ;
+               height: 18px;
+               margin-top: 1px;
+               
+       }
+
+
+
+
+
 
 @media  screen and (max-width:964px ) and (min-width:767px)  {
 	.dropdown {
@@ -297,6 +374,11 @@ small {
 .cta-subtext-input {
 	margin-left: 0px;
 }
+
+
+.logo-mashable {display: none;}
+.logo-bloomberg  {display: none;}
+.logo-fastc  {display: none;}
 
 }
 
@@ -373,6 +455,13 @@ font-size: 1.5em;
 	margin-left: auto;
 }
 
+.logo-mashable {display: none;}
+.logo-bloomberg  {display: none;}
+.logo-fastc  {display: none;}
+.logo-techcrunch {
+	display: none;
+}
+
 }
 
 @media  screen and (max-width: 479px) and (min-width:300px ) {
@@ -392,7 +481,6 @@ font-size: 1.5em;
     	
     	width: calc(100%-100px);
     	
-
 		}
 
     .btn-tryit {
@@ -464,6 +552,11 @@ font-size: 1.2em;
 	margin-right: auto;
 	margin-left: auto;
 }
-
+.logo-mashable {display: none;}
+.logo-bloomberg  {display: none;}
+.logo-techcrunch {display: none;}
+.logo-fastc  {display: none;}
+.logo-nyt {display: none;}
+.logo-cnn {display: none;}
 }
 
