@@ -500,7 +500,9 @@ line-height: 1.55555556;
 	cursor: pointer;
 }
 
-
+.feat-container2 {
+	display: none;
+}
 
 
 
@@ -543,7 +545,7 @@ line-height: 1.55555556;
 .features1 {
 	padding: 0;
 }
-.feat-container {
+.feat-container, .feat-container2 {
 	display: block;
 }
 .content1 {
@@ -695,12 +697,15 @@ font-size: 1.5em;
 
 .slide {
 	min-height: 645px;
+	background: #E5F4FE;
 }
 .features1 {
 	padding: 0;
 }
-.feat-container {
+.feat-container, .feat-container2 {
 	display: block;
+	padding: 25px 0;
+
 }
 .content1 {
 	min-height: inherit;
@@ -869,6 +874,7 @@ font-size: 1.2em;
 
 .slide {
 	min-height: 645px;
+	background: #E5F4FE;
 }
 
 .nav3 {
@@ -878,8 +884,10 @@ font-size: 1.2em;
 .features1 {
 	padding: 0;
 }
-.feat-container {
+.feat-container, .feat-container2 {
 	display: block;
+	padding: 25px 0;
+	
 }
 .content1 {
 	min-height: inherit;
