@@ -633,21 +633,27 @@ line-height: 1.28571429;
 .container7 {
 	padding: 0 40px;
 	background-color: #fff;
+	overflow: hidden;
+
 }	
 
 .two-col {
-	display: flex;
-	align-items: flex-start;
+	float: left;
 	width: 100%;
 	padding: 20px 0;
 	text-align: center;
+	
 }
 
 .self-empl, .agency {
+	
 	width: 50%;
+	float: left;
+	text-align: center;
 }
 
 .self-empl {
+
 	padding-right: 2%;
 }
 
@@ -664,6 +670,8 @@ line-height: 1.28571429;
 
 .self {
 	border-radius: 5px;
+	max-width: 100%;
+	height: auto;
 }
 
 .two-col p {
@@ -689,6 +697,104 @@ line-height: 1.28571429;
 	background-color: #0d83dd;
 	color: white;
 	border: none;
+}
+
+
+.container8 {
+	padding: 0 40px;
+	background-color: #fff;
+}
+
+.mobile-dwld-2col {
+	width: 100%;
+	padding: 20px 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.mobile-dwld-col1 {
+	width: 40%;
+	margin-left: 5%;
+	padding-right: 5%;
+}
+
+.mobile-dwld-col1 h2 {
+	color: #0d83dd;
+	font-size: 2rem;
+	font-weight: 400;
+	line-height: 1.27777778;
+}
+
+.mobile-dwld-col1 p {
+	font-size: 1rem;
+line-height: 1.66;
+}
+
+.AppStore {
+	margin-right: 15px;
+}
+
+.mobile-dwld-col2 img {
+	max-width: 100%;
+	height: auto;
+}
+
+.container9 {
+	padding: 0 40px;
+	background-color: #fff;
+}
+
+.cloud-two {
+	width: 100%;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+	padding: 20px 0;
+	align-items: center;
+}
+.cloud-col2 {
+	width: 40%;
+	margin-right: 5%;
+	padding-left: 5%;
+}
+
+.cloud-col1 {
+	margin-left: 5%;
+}
+
+.cloud-col1 img {
+	max-width: 100%;
+	height: auto;
+}
+.cloud-col2 h2{
+font-size: 2.4em;
+	color:#0d83dd ;
+	font-weight: 400;
+	
+	line-height: 1.4;
+}
+
+.cloud-col2 p{
+	font-size: 1.2em;
+margin-bottom: 20px;
+line-height: 1.7;
+color: #343D47;
+}
+
+.cloud-btn {
+	display: inline-block;
+	font-size: 1.3em;
+	text-decoration: none;
+	border: 2px solid #C5C7CE;
+	border-radius: 5px;
+	color:#062942 ;
+	padding-bottom:13px ;
+	padding-top:13px ;
+	padding-right: 30px;
+	padding-left: 30px;
+	margin: 20px auto;
 }
 
 @media  screen and (max-width:964px ) and (min-width:767px)  {
@@ -754,6 +860,43 @@ line-height: 1.28571429;
     margin: 18px auto 0;
 }
 
+.two-col {
+	display: block;
+	float: none;
+}
+.self-empl, .agency {
+	width: 100%;
+	padding-right: 0;
+}
+
+.mobile-dwld-2col {
+	display: block;
+}
+.mobile-dwld-col1, .mobile-dwld-col2 {
+	width: 100%;
+	padding-right: 0;
+	padding-top: 15px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.cloud-two {
+	display: block;
+}
+
+.cloud-col2 {
+	text-align: center;
+	width: 100%;
+	padding-left: 0;
+	margin: 0 auto;
+}
+
+.cloud-col1 {
+	margin:  20px auto;
+	width: 100%;
+	padding-left: 0;
+	text-align: center;
+}
 
 }
 
@@ -933,6 +1076,44 @@ font-size: 1.5em;
 	width: 275px;
     margin: 18px auto 0;
 }
+
+.two-col {
+	display: block;
+	float: none;
+}
+.self-empl, .agency {
+	width: 100%;
+	padding-right: 0;
+}
+
+.mobile-dwld-2col {
+	display: block;
+}
+.mobile-dwld-col1, .mobile-dwld-col2 {
+	width: 100%;
+	padding-right: 0;
+	padding-top: 15px;
+	margin: 0 auto;
+	text-align: center;
+}
+.cloud-two {
+	display: block;
+}
+
+.cloud-col2 {
+	text-align: center;
+	width: 100%;
+	padding-left: 0;
+	margin: 0 auto;
+}
+
+.cloud-col1 {
+	margin:  20px auto;
+	width: 100%;
+	padding-left: 0;
+	text-align: center;
+}
+
 
 }
 
@@ -1133,6 +1314,57 @@ font-size: 1.2em;
 	display: block;
 	max-width: 275px;
     margin: 18px auto 0;
+}
+
+.two-col {
+	display: block;
+	float: none;
+}
+.self-empl, .agency {
+	width: 100%;
+	padding-right: 0;
+}
+
+.mobile-dwld-2col {
+	display: block;
+}
+.mobile-dwld-col1, .mobile-dwld-col2 {
+	width: 100%;
+	padding-right: 0;
+	padding-top: 15px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.AppStore {
+	margin-right: 0;
+	margin-bottom: 10px;
+}
+.mobile-icons {
+	display: block;
+	margin: 5px auto;
+}
+
+.mobile-icons a {
+	display: block;
+}
+
+.cloud-two {
+	display: block;
+}
+
+.cloud-col2 {
+	text-align: center;
+	width: 100%;
+	padding-left: 0;
+	margin: 0 auto;
+}
+
+.cloud-col1 {
+	margin:  20px auto;
+	width: 100%;
+	padding-left: 0;
+	text-align: center;
 }
 
 }
