@@ -36,9 +36,16 @@ a {
 .container1 {
 	padding: 0px 40px;
 	background-color: #ffffff;
-	overflow: hidden;
 
 }
+
+.container1::after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;}
+
 .nav1 {
 	float: right;
 	margin-top: 2px;
@@ -52,6 +59,10 @@ a {
 	font-weight: 600;
 	
 }
+.nav1 a:hover{
+	color:#0D83DD ;
+}
+
 /*snaps after 947 width*/
 .nav2 {
 	display: inline-block;
@@ -75,7 +86,7 @@ a {
 	padding-bottom: 26px;
 
 }
-.dropdown a {
+.dropdown .nav-name {
 	color:  #062942;
 	float: left;
 	display: inline-block;
@@ -87,6 +98,170 @@ a {
 	background-repeat: no-repeat;
 	background-position: right 10px;
 
+}
+
+.dropdown .nav-name:last-child{
+	background-image: none;
+}
+
+.dropdown .nav-name:hover {
+color: #0D83DD;
+}
+
+.sub-nav {
+	display: none;
+	position: absolute;
+	top: 50px;
+	left: -100%;
+	border: 1px solid #ced5da;
+	border-radius: 10px;
+	padding: 28px;
+	background: #fff;
+	z-index: 100;
+}
+
+.tri-inner, .tri-outer {
+display: none;
+position: absolute;	
+top: 36px;
+left: 50%;
+width: 0;
+height: 0;
+border-left: 15px solid transparent;
+border-right: 15px solid transparent;
+border-bottom: 15px solid #ced5da;
+margin-left: -20px;
+}
+
+.dropdown:hover .tri-inner, .dropdown:hover .tri-outer{
+	display: block;
+}
+
+.nav-heading {
+    color: #062942;
+    margin-bottom: 18px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;}
+
+ .pt-original {
+    margin-top: 18px;}
+.sub-cols {
+	display: table;
+}
+.sub-col {
+	display: table-cell;
+	padding-right: 36px;
+}
+.sub-col:last-child {
+	padding-right: 0;
+}
+
+.sub-col a {
+display: block;
+white-space: nowrap;
+margin-bottom: 12px;
+font-size: 18px;
+font-weight: 400;
+color: #062942;
+line-height: 26px;
+text-decoration: none;
+}
+
+.sub-nav > a {
+display: block;
+white-space: nowrap;
+margin-bottom: 12px;
+font-size: 18px;
+font-weight: 400;
+color: #062942;
+line-height: 26px;
+text-decoration: none;
+}
+
+
+
+
+.sub-col a:last-child {
+	margin-bottom: 0;
+}
+
+.dropdown:hover .sub-nav {
+  display: block;
+}
+.i-invoice{
+background-image: 
+url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/ico-invoicing.svg');
+}
+.i-expense
+{background-image: url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/ico-expenses.svg');
+
+}
+.i-time
+{background-image: url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/ico-time-tracking.svg');
+
+}
+.i-projects
+{background-image: url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/ico-projects.svg');
+
+}
+.i-estimates
+{background-image: url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/ico-estimates.svg');
+
+}
+.i-pay
+{background-image: url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/ico-payments.svg');
+
+}
+.i-report
+{background-image: url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/ico-dashboard-reports-default.svg');
+
+}
+.i-mobile
+{background-image: url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/ico-mobile.svg');
+
+}
+.i-invoice:hover{
+background-image: 
+url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/ico-invoicing-hover.svg');
+}
+.i-expense:hover
+{background-image: url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/ico-expenses-hover.svg');
+
+}
+.i-time:hover
+{background-image: url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/ico-time-tracking-hover.svg');
+
+}
+.i-projects:hover
+{background-image: url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/ico-projects-hover.svg');
+
+}
+.i-estimates:hover
+{background-image: url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/ico-estimates-hover.svg');
+
+}
+.i-pay:hover
+{background-image: url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/ico-payments-hover.svg');
+
+}
+.i-report:hover
+{background-image: url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/ico-dashboard-reports-selected.svg');
+
+}
+.i-mobile:hover
+{background-image: url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/ico-mobile-hover.svg');
+
+}
+
+
+.i-feature {
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 25px;}
+.i-feature:hover {
+
+	color: #0D83DD;
 }
 
 .btn-login {
