@@ -22,6 +22,10 @@ a {
 	text-decoration: none;
 }
 
+#mobile-cont {
+	display: none;
+}
+
 .head {
 	width: 100%;
 	height: auto;
@@ -70,6 +74,10 @@ a {
 	width: calc(100% - 120px);
 	margin-top: 12px;
 
+}
+
+.mobile-nav {
+	display: none;
 }
 
 .nav2core {
@@ -235,6 +243,10 @@ url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/
 }
 .i-mobile:hover
 {background-image: url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/ico-mobile-hover.svg');
+}
+
+.hide-div {
+	display: none;
 }
 
 .i-feature {
@@ -1265,6 +1277,10 @@ line-height: 1.85714286;
   
 
 @media  screen and (max-width:964px ) and (min-width:767px)  {
+
+#mobile-cont {
+	display: none;
+}
 .dropdown {
 		margin-left: 10px;
 	}
@@ -1445,18 +1461,57 @@ text-align: center;
     	display: none;
     }
 
+ .container1 {
+ 	padding: 0 20px;
+ }   
+
+#mobile-cont {
+	display: block;
+	padding-right: 0;
+	padding-left: 0;
+	background-color: #fff;
+}    
+.mobile-dropdown {
+	display: block;
+}
+
+.mob-drop {
+padding: 10px 0;
+width: 100%;
+border-bottom: 1px solid #c5c7ce;
+display: block;
+}
+
+.mob-drop:first-child {
+	border-top: 1px solid #c5c7ce;
+}
+
+.top-name {
+display: inline-block;
+cursor: pointer;
+padding: 12px 15px;
+margin-bottom: 0;
+font-size: 0.95rem;
+font-weight: 600;
+color:#062942 ;
+background-image: url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/dropdown.svg');
+background-position:right 17px;
+background-repeat: no-repeat;
+background-size: 14px 7px;
+padding-right: 20px;
+
+}
+
+
+
 .btn-tryit {
     	margin-left: 0;
     }
 .hidden {
-        margin-top: 10px;
+        margin-top: -5px;
     	display: inline-block ;
     	margin-left: 30px;
-    	
-    }
 
-.hidden img {
-    	width: 30px;
     }
 
 .logoHead {
@@ -1787,6 +1842,46 @@ text-align: center;
     	display: none;
     }
 
+.container1 {
+ 	padding: 0 20px;
+ }   
+
+#mobile-cont {
+	display: block;
+	padding-right: 0;
+	padding-left: 0;
+	background-color: #fff;
+}    
+.mobile-dropdown {
+	display: block;
+}
+
+.mob-drop {
+padding: 10px 0;
+width: 100%;
+border-bottom: 1px solid #c5c7ce;
+display: block;
+}
+
+.mob-drop:first-child {
+	border-top: 1px solid #c5c7ce;
+}
+
+.top-name {
+display: inline-block;
+cursor: pointer;
+padding: 12px 15px;
+margin-bottom: 0;
+font-size: 0.95rem;
+font-weight: 600;
+color:#062942 ;
+background-image: url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/dropdown.svg');
+background-position:right 17px;
+background-repeat: no-repeat;
+background-size: 14px 7px;
+padding-right: 20px;
+}    
+
 .btn-login {
     	margin-left: 0px;
     	margin-top: 4px;
@@ -1799,19 +1894,21 @@ text-align: center;
 
 .btn-tryit {
     	margin-left: 0;
+    	padding-right: 5px;
+    	padding-left: 5px;
     	
     	
     }
 .hidden {
     	display: inline-block ;
-    	margin-left: 10px;
-    	margin-top: 18px;
-
-    	
+    	margin-left:0;
+    	margin-top: 0;		
     }
-.hidden img {
+.hidden > button {
     	width: 20px;
+    	height: auto;
     }
+
 
 .logoHead {
 	width: 100px;
