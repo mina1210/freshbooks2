@@ -172,7 +172,7 @@ text-decoration: none;
 display: block;
 white-space: nowrap;
 margin-bottom: 12px;
-font-size: 18px;
+font-size: 17px;
 font-weight: 400;
 color: #062942;
 line-height: 26px;
@@ -276,6 +276,10 @@ url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/
 .login {
 	color:  #062942;
 	font-weight: 400;
+}
+
+.login:hover {
+	color:#0D83DD ;
 }
 
 .login, .btn-tryit {
@@ -1176,6 +1180,10 @@ background-color: #85c525;
 	width: 100%;
 }
 
+.trial-btn:hover {
+	background-color: #aad662;
+}
+
 .trial-subtext {
 	line-height: 1.66666667;
 	margin-top: 20px;
@@ -1742,6 +1750,53 @@ font-size: 1.5em;
 	float: none;
 }
 
+.container-footer {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.footer-nav {
+	display: block;
+	padding: 0;
+}
+
+.footer-col {
+	padding: 0;
+	width: 100%;
+	border-bottom: 1px solid #c5c7ce;
+}
+
+.second-row {
+	    border-top: 1px solid #c5c7ce;
+    margin-top: 0;
+}
+
+.footer-logo {
+	display: none;
+}
+
+.footer-sub-links {
+	display: none;
+}
+
+.footer-top-level {
+display: block;	
+cursor: pointer;
+padding: 12px 15px;
+margin-bottom: 0;
+font-size: 0.87rem;
+
+}
+
+.footer-top-level::after{
+
+content: url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/navigation/nav-chevron.svg');
+text-decoration: none;
+float: right;
+vertical-align: middle;
+height: 18px;
+}
+
 .container-end {
 	padding: 0 15px;
 }
@@ -2079,6 +2134,54 @@ font-size: 1.2em;
 .col2-GS img {
 	float: none;
 }
+
+.container-footer {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.footer-nav {
+	display: block;
+	padding: 0;
+}
+
+.footer-col {
+	padding: 0;
+	width: 100%;
+	border-bottom: 1px solid #c5c7ce;
+}
+
+.second-row {
+	    border-top: 1px solid #c5c7ce;
+    margin-top: 0;
+}
+
+.footer-logo {
+	display: none;
+}
+
+.footer-sub-links {
+	display: none;
+}
+
+.footer-top-level {
+display: block;	
+cursor: pointer;
+padding: 12px 15px;
+margin-bottom: 0;
+font-size: 0.87rem;
+
+}
+
+.footer-top-level::after{
+
+content: url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/navigation/nav-chevron.svg');
+text-decoration: none;
+float: right;
+vertical-align: middle;
+height: 18px;
+}
+
 
 .container-end {
 	padding: 0 15px;
