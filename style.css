@@ -144,7 +144,7 @@ margin-left: -20px;
     font-weight: 400;
     line-height: 27px;}
 
- .pt-original {
+.pt-original {
     margin-top: 18px;}
 .sub-cols {
 	display: table;
@@ -179,9 +179,6 @@ line-height: 26px;
 text-decoration: none;
 }
 
-
-
-
 .sub-col a:last-child {
 	margin-bottom: 0;
 }
@@ -195,31 +192,24 @@ url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/
 }
 .i-expense
 {background-image: url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/ico-expenses.svg');
-
 }
 .i-time
 {background-image: url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/ico-time-tracking.svg');
-
 }
 .i-projects
 {background-image: url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/ico-projects.svg');
-
 }
 .i-estimates
 {background-image: url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/ico-estimates.svg');
-
 }
 .i-pay
 {background-image: url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/ico-payments.svg');
-
 }
 .i-report
 {background-image: url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/ico-dashboard-reports-default.svg');
-
 }
 .i-mobile
 {background-image: url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/ico-mobile.svg');
-
 }
 .i-invoice:hover{
 background-image: 
@@ -227,40 +217,32 @@ url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/
 }
 .i-expense:hover
 {background-image: url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/ico-expenses-hover.svg');
-
 }
 .i-time:hover
 {background-image: url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/ico-time-tracking-hover.svg');
-
 }
 .i-projects:hover
 {background-image: url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/ico-projects-hover.svg');
-
 }
 .i-estimates:hover
 {background-image: url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/ico-estimates-hover.svg');
-
 }
 .i-pay:hover
 {background-image: url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/ico-payments-hover.svg');
-
 }
 .i-report:hover
 {background-image: url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/ico-dashboard-reports-selected.svg');
-
 }
 .i-mobile:hover
 {background-image: url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/ico-mobile-hover.svg');
-
 }
-
 
 .i-feature {
     background-repeat: no-repeat;
     background-position: left center;
     padding-left: 25px;}
-.i-feature:hover {
 
+.i-feature:hover {
 	color: #0D83DD;
 }
 
@@ -294,8 +276,7 @@ url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/
 		padding-right: 16px;
 		padding-left: 16px;
 		padding-top: 5px;
-		padding-bottom: 6px;
-		
+		padding-bottom: 6px;		
 }
 
 .btn-tryit:hover {
@@ -314,10 +295,9 @@ url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/
 		background-repeat: no-repeat;
 		background-size: cover;
 		padding: 0px 40px;
-
 	}
 
-	.hero-container {
+.hero-container {
      padding: 45px 0px ;
      width: 100%;
      display: block;
@@ -333,9 +313,9 @@ url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/
 		margin-bottom: 30px;
 		font-size: 2.8em;
 		font-weight: 400;
-	}
+}
 
-	.hero p {
+.hero p {
 		color: #062942;
 		margin-bottom: 30px;
 		font-size: 1.3em;
@@ -388,12 +368,10 @@ url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/
 	max-width: 371px;
     width: 100%;
     vertical-align: middle;
-
 }
 
 .btn-img {
 	position: relative;
-
 }
 
 .cta-btn {
@@ -409,8 +387,6 @@ url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/
 	text-align: center;
 	color:#fff ;
 	background-color: #85c525;
-
-
 }
 
 .cta-btn:hover {
@@ -425,10 +401,6 @@ url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/nav-v2/
 	position: absolute;
 	bottom: 12px;
 	left: 380px;
-}
-
-a {
-	
 }
 
 small a {
@@ -451,7 +423,6 @@ small {
 	content: url('https://www.freshbooks.com/_themes/freshbooks/smux-assets/img/icons/security-lock.svg');
 	vertical-align: middle;
 	margin-right: 5px;
-
 }
 .featured-in-container {
 	padding: 0px 40px;
@@ -472,12 +443,6 @@ small {
 	font-size: 1.3em;
 	vertical-align: middle;
 }
-
-/*.featured-in-container img {
-
-	display: inline-block;
-	vertical-align: middle;
-}*/
 
 .logo-cnet{ 
 	        width: 26px;
@@ -740,7 +705,7 @@ height: auto;
 }
 
 .testimonial-block hr {
-	width: 72px;
+width: 72px;
 border: 2px solid #359ce4;
 margin: 0 auto;
 box-sizing: content-box;
@@ -815,7 +780,6 @@ line-height: 1.28571429;
 	padding: 0 40px;
 	background-color: #fff;
 	overflow: hidden;
-
 }	
 
 .two-col {
@@ -823,18 +787,15 @@ line-height: 1.28571429;
 	width: 100%;
 	padding: 20px 0;
 	text-align: center;
-	
 }
 
 .self-empl, .agency {
-	
 	width: 50%;
 	float: left;
 	text-align: center;
 }
 
 .self-empl {
-
 	padding-right: 2%;
 }
 
@@ -879,7 +840,6 @@ line-height: 1.28571429;
 	color: white;
 	border: none;
 }
-
 
 .container8 {
 	padding: 0 40px;
@@ -950,7 +910,7 @@ line-height: 1.66;
 	height: auto;
 }
 .cloud-col2 h2{
-font-size: 2.4em;
+    font-size: 2.4em;
 	color:#0d83dd ;
 	font-weight: 400;
 	
@@ -958,7 +918,7 @@ font-size: 2.4em;
 }
 
 .cloud-col2 p{
-	font-size: 1.2em;
+font-size: 1.2em;
 margin-bottom: 20px;
 line-height: 1.7;
 color: #343D47;
@@ -1042,9 +1002,6 @@ color: #343D47;
 	width: 40%;
 
 }
-
-
-
 .award-col2 h2 {
 	font-size: 2.4em;
 	color:#0d83dd ;
@@ -1110,9 +1067,9 @@ strong {
     margin-left: auto;
     margin-right: auto;
 	font-size: 1.2em;
-margin-bottom: 20px;
-line-height: 1.7;
-color: #343D47;}
+    margin-bottom: 20px;
+    line-height: 1.7;
+    color: #343D47;}
 
 .container13 {
 	background-image: url('images/freshfaces.jpg');
@@ -1126,7 +1083,6 @@ color: #343D47;}
 	padding-left: 0;
 	padding-right: 0;
 	background-color: #0D83DD;
-
 }
 
 .two-col-getstarted {
@@ -1212,8 +1168,7 @@ background-color: #85c525;
 	padding: 50px 0;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
-    
+	justify-content: space-around;  
 }
 .footer-col:first-child {
 	padding-left: 0;
@@ -1256,20 +1211,20 @@ background-color: #85c525;
     text-decoration: none;
     color: #8495a2;}
 
-  .footer-sub-links span a:hover {
+.footer-sub-links span a:hover {
   	color: #0d83dd;
   }
 
-  .second-row {
+.second-row {
   	margin-top: 30px;
   }
 
-  .container-end {
+.container-end {
   	border-top: 1px solid #CDD4D9;
   	padding: 0 40px;
   	background-color: #fff;
   }
-  .footer-social {
+.footer-social {
   	display: flex;
   	flex-direction: row;
   	justify-content: space-around;
@@ -1288,35 +1243,35 @@ background-color: #85c525;
 margin-right: 15px;
 }
 
-  .social-icons img {
+.social-icons img {
   	width: 36px;
   	margin-right: 12px;
   }
 
-  .social-copyright {
+.social-copyright {
   	width: 40%;
   }
 
-  .footer-copy {
+.footer-copy {
   	text-align: right;
   	font-size: 0.8rem;
 color: #8495a2;
 line-height: 1.85714286;
   }
 
-  .end-footer-logo {
+.end-footer-logo {
   	display: none;
   }
   
 
 @media  screen and (max-width:964px ) and (min-width:767px)  {
-	.dropdown {
+.dropdown {
 		margin-left: 10px;
 	}
-	.btn-login {
+.btn-login {
 	margin-left: 10px;
 }
-   .login, .btn-tryit {
+.login, .btn-tryit {
 	margin-left: 10px;
 
 }
@@ -1332,7 +1287,6 @@ line-height: 1.85714286;
 .cta-subtext-input {
 	margin-left: 0px;
 }
-
 
 .logo-mashable {display: none;}
 .logo-bloomberg  {display: none;}
@@ -1487,25 +1441,25 @@ text-align: center;
 }
 
 @media  screen and (max-width: 784px) and (min-width:480px ) {
-    .nav1, .dropdown, .login {
+.nav1, .dropdown, .login {
     	display: none;
     }
 
-    .btn-tryit {
+.btn-tryit {
     	margin-left: 0;
     }
-    .hidden {
+.hidden {
         margin-top: 10px;
     	display: inline-block ;
     	margin-left: 30px;
     	
     }
 
-    .hidden img {
+.hidden img {
     	width: 30px;
     }
 
-    .logoHead {
+.logoHead {
 	width: 100px;
 	float: left;
 	margin-top: 8px; 
@@ -1536,9 +1490,7 @@ text-align: center;
 	display: block;
     max-width: 450px;
 margin-right: auto;
-margin-left: auto;
-
-	
+margin-left: auto;	
 }
 .input-email {
 	display: block;
@@ -1596,7 +1548,6 @@ font-size: 1.5em;
 	border-radius: 5px;
 	background-color: #85c525;
 	text-align: center;
-
 }
 
 .btn-tryit2:hover {
@@ -1626,7 +1577,6 @@ font-size: 1.5em;
 .feat-container, .feat-container2 {
 	display: block;
 	padding: 25px 0;
-
 }
 .content1 {
 	min-height: inherit;
@@ -1736,8 +1686,6 @@ font-size: 1.5em;
 	float: none;
 	margin: 10px auto;
 }
-
-
 .trial-subtext {
 	margin-bottom: 30px;
 	text-align: center;
@@ -1828,47 +1776,44 @@ text-align: center;
 	text-align: center;
 	padding-bottom: 30px;
 }
-
-
-
 }
 
 @media  screen and (max-width: 479px) and (min-width:300px ) {
 	
-    .container1 {
+.container1 {
 	padding: 0px 15px;}
 
-	.nav1, .dropdown, .login {
+.nav1, .dropdown, .login {
     	display: none;
     }
 
-    .btn-login {
+.btn-login {
     	margin-left: 0px;
     	margin-top: 4px;
     }
-    .nav2core {
+.nav2core {
     	
     	width: calc(100%-100px);
     	
 		}
 
-    .btn-tryit {
+.btn-tryit {
     	margin-left: 0;
     	
     	
     }
-    .hidden {
+.hidden {
     	display: inline-block ;
     	margin-left: 10px;
     	margin-top: 18px;
 
     	
     }
-    .hidden img {
+.hidden img {
     	width: 20px;
     }
 
-    .logoHead {
+.logoHead {
 	width: 100px;
 	float: left;
 	margin-top: 8px; 
@@ -1958,7 +1903,6 @@ font-size: 1.2em;
 	border-radius: 5px;
 	background-color: #85c525;
 	text-align: center;
-
 }
 
 .btn-tryit2:hover {
@@ -2219,7 +2163,5 @@ text-align: center;
 	text-align: center;
 	padding-bottom: 30px;
 }
-
-
 }
 
