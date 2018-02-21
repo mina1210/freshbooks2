@@ -16,7 +16,7 @@
 
     function displayWindowSize() {
         myWidth = window.innerWidth;
-        myHeight = window.innerHeight;
+         myHeight = window.innerHeight;
         // your size calculation code here
         document.getElementById("dimensions").innerHTML = myWidth + "x" + myHeight;
     };
@@ -30,6 +30,32 @@
         x.style.display = "none";
     }
 } 
+</script>
+
+<script type="text/javascript">
+ $(function() {
+    $('.top-name').click(function() {
+        $nextDiv = $(this).next('.sub-nav');
+        if ($nextDiv.length) {
+        $nextDiv.is(':visible') ? $nextDiv.slideUp() : $nextDiv.slideDown();
+    }
+        
+        return false;
+    });
+});
+</script>
+
+<script type="text/javascript">
+ $(function() {
+    $('.footer-top-level').click(function() {
+        $nextDiv = $(this).next('.footer-sub-links');
+        if ($nextDiv.length) {
+        $nextDiv.is(':visible') ? $nextDiv.slideUp() : $nextDiv.slideDown();
+    }
+        
+        return false;
+    });
+});
 </script>
 </head>
 <body>
@@ -106,11 +132,11 @@
 			</div>
 			</div>
 			
-			</div>
+			</div>  
 		</div>
 		<div id="mobile-cont">
 			<div class="mobile-dropdown">
-				<div class="mob-drop"><a class="top-name" href="/">How it Works</a>
+				<div class="mob-drop"><a class="top-name" href="">How it Works</a>
 					
 						<div id="sub" class="sub-nav pt">
 					<span class="nav-heading">Features for You and Your Team</span>
@@ -136,8 +162,19 @@
 		
 
 				</div>
-				<div class="mob-drop"><a class="top-name" href="/">Who it's for</a></div>
-				<div class="mob-drop"><a class="top-name" href="/">More</a></div>
+				<div class="mob-drop"><a class="top-name" href="/">Who it's for</a>
+                <div class="sub-nav">
+							<a href="javascript:toggleDiv('sub');self-employed">Self-Employed Pros</a>
+							<a href="/agencies-firms-consultancies">Agencies, Firms &amp; Consultancies</a>
+						</div>
+				</div>
+				<div class="mob-drop"><a class="top-name" href="/">More</a>
+               <div class="sub-nav">
+							<a href="/addons-new">Add-ons</a>
+							<a href="/pricing">Pricing</a>
+							<a href="https://support.freshbooks.com">Support</a>
+						</div>
+				</div>
 				<div class="mob-drop"><a class="top-name" href="/">Blog</a></div>
 			</div>
 			</div>

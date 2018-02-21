@@ -1466,7 +1466,7 @@ text-align: center;
  }   
 
 #mobile-cont {
-	display: block;
+	display: none;
 	padding-right: 0;
 	padding-left: 0;
 	background-color: #fff;
@@ -1501,7 +1501,30 @@ background-size: 14px 7px;
 padding-right: 20px;
 
 }
+.top-name:last-child {
+	background-image: none;
+}
 
+.top-name:hover {
+color:#0D83DD ;
+}
+.sub-nav a:hover {
+	color:#0D83DD ;
+
+}
+
+.sub-nav {
+	display: none;
+	position: relative;
+        top: 5px;
+        left: 30px;
+	max-width: 500px;
+	border: 2px solid #ced5da;
+	border-radius: 10px;
+	padding: 28px;
+	background: #fff;
+	
+}
 
 
 .btn-tryit {
