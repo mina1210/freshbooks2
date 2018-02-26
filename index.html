@@ -22,14 +22,26 @@
     };
 </script>
 <script type="text/javascript">
-	function myFunction() {
-    var x = document.getElementById("mobile-cont");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
-} 
+	$(function ()
+{
+    var $window = $(window),
+        $nav = $('#mobile-cont'),
+        $button = $('#hambtn');
+
+    $button.on('click', function ()
+    {
+        $nav.slideToggle();
+    });
+
+    $window.on('resize', function ()
+    {
+        if ($window.width() > 784)
+        {
+            $nav.hide();
+        }
+    });
+});
+   
 </script>
 
 <script type="text/javascript">
@@ -123,7 +135,7 @@
 					<a class="btn-tryit" href="">Try it Free</a>
 					<a class="login" href="">Login</a>
 				</div>
-				<div class="hidden" onclick="myFunction()"><button class="hamburger hamburger--collapse" type="button">
+				<div class="hidden"><button id="hambtn" class="hamburger hamburger--collapse" value='hide/show' type="button">
   <span class="hamburger-box">
     <span class="hamburger-inner"></span>
   </span>
@@ -135,7 +147,7 @@
 			</div>  
 		</div>
 		<div id="mobile-cont">
-			<div class="mobile-dropdown">
+			<div id="mobile-dropdown" class="mobile-dropdown">
 				<div class="mob-drop"><a class="top-name" href="">How it Works</a>
 					
 						<div id="sub" class="sub-nav pt">
